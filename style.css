@@ -61,9 +61,10 @@ tr {
     background-color: var(--faint-color);
     color: var(--dark-color);
     border: none;
-    padding: 5px;
+    padding: 2%;
     font-weight: bold;
     margin: 2%;
+    font-size: medium;
 }
 
 label {
@@ -80,4 +81,10 @@ label {
     margin: 2%;
     padding: 4px;
     font-size: larger;
+}
+
+.message{
+    padding: 2px;
+    margin: 2%;
+    font-size: large;
 }
