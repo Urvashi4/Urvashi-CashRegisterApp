@@ -1,0 +1,83 @@
+:root{
+    --dark-color : #11644f;
+    --faint-color: #46cf8f;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    background-color: var(--dark-color);
+    max-width: 600px;
+    min-height: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+input {
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    padding: 2px;
+    margin: 2%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin: 2% auto 0;
+    display: inline-table;
+}
+
+th,td {
+    border: 1px solid var(--faint-color);
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+.numOfNotes {
+    background-color: white!important;
+    color: var(--dark-color);
+}
+
+tr {
+    background-color: var(--faint-color);
+    color: var(--dark-color);
+}
+
+.hideclass {
+    display: none;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--faint-color);
+    color: var(--dark-color);
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+label {
+    color: var(--faint-color);
+    font-weight: bold;
+    margin: 2%;
+    padding: 4px;
+    font-size: larger;
+}
+
+.captionClass {
+    color: var(--faint-color);
+    font-weight: bold;
+    margin: 2%;
+    padding: 4px;
+    font-size: larger;
+}
