@@ -1,6 +1,6 @@
 :root{
-    --dark-color : #11644f;
-    --faint-color: #46cf8f;
+    --dark-color : #843b62;
+    --faint-color: #f67e7d;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -41,6 +41,7 @@ th,td {
     border: 1px solid var(--faint-color);
     padding: 2px;
     border-collapse: collapse;
+    width: fixed;
 }
 
 .numOfNotes {
